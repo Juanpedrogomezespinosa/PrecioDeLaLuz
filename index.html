@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Precio de la luz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="Hack a boss icon" href="/images/nosotros.png" />
+  </head>
+  <body>
+    <header>
+      <h1>Precio de la luz</h1>
+      <p>
+        Aplicación web que permite visualizar en tiempo real cuánto cuesta tener
+        funcionando diversos aparatos eléctricos.
+      </p>
+    </header>
+
+    <nav>
+      <menu>
+        <li><a href="#galeria">Electrodomésticos</a></li>
+        <li><a href="#sobre-mi">Sobre nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </menu>
+    </nav>
+
+    <main>
+      <article id="galeria">
+        <section class="column">
+          <img src="/images/horno.png" alt="horno" />
+          <p class="horno">
+            Ahora mismo, el consumo energético de un horno sería: 0.50 €/h
+          </p>
+        </section>
+        <section class="column2">
+          <img src="/images/microondas.png" alt="microondas" />
+          <p class="microondas">
+            Ahora mismo, el consumo energético de un microondas sería: 0.50 €/h
+          </p>
+        </section>
+        <section class="column3">
+          <img src="/images/tv.png" alt="TV" />
+          <p class="tv">
+            Ahora mismo, el consumo energético de una televisión sería: 0.50 €/h
+          </p>
+        </section>
+        <section class="column4">
+          <img src="images/PC.png" alt="PC" />
+          <p class="pc">
+            Ahora mismo, el consumo energético de un ordenador sería: 0.50 €/h
+          </p>
+        </section>
+        <section class="column5">
+          <img src="images/lavadora.png" alt="lavadora" />
+          <p class="lavadora">
+            Ahora mismo, el consumo energético de una lavadora sería: 0.50 €/h
+          </p>
+        </section>
+        <section class="column6">
+          <img src="images/batidora.png" alt="batidora" />
+          <p class="batidora">
+            Ahora mismo, el consumo energético de un ordenador sería: 0.50 €/h
+          </p>
+        </section>
+      </article>
+
+      <article id="sobre-mi">
+        <h2>Sobre nosotros</h2>
+        <section>
+          <figure>
+            <img src="/images/nosotros.png" alt="sobre-mi" />
+          </figure>
+          <p>
+            Proyecto 6-F formado por Juan Fernández, Juan Pedro Gómez y Mariano
+            Mosca
+          </p>
+        </section>
+      </article>
+
+      <article id="contacto">
+        <h2>
+          Si está interesado en saber cual sería el gasto energético de otros
+          electrodomésticos póngase en contacto con nosotros:
+        </h2>
+
+        <form>
+          <ul>
+            <li>
+              <label for="name">Nombre: </label>
+              <input type="text" id="name" name="name" required />
+            </li>
+            <li>
+              <label for="name">Email</label>
+              <input type="email" id="name" name="name" required />
+            </li>
+            <li>
+              <label for="comment">Comentario</label>
+              <textarea id="comment" name="comment" rows="5" required>
+              </textarea>
+            </li>
+          </ul>
+          <button>Enviar</button>
+        </form>
+      </article>
+    </main>
+    <footer>
+      <p>Juan Fernández, Juan Pedro Gómez y Mariano Mosca - 2023 ©️</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
