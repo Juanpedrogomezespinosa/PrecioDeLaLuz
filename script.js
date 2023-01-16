@@ -111,19 +111,41 @@ async function tomaDatos() {
 
       const precioElectro = hoursData[hour].price;
       const precioLavadora = (precioElectro / 1000000) * 2000;
-      lavadora(`El consumo de la lavadora es ${precioLavadora.toFixed(3)} € `);
+      lavadora(
+        `Ahora mismo, el consumo energético de una lavadora es ${precioLavadora.toFixed(
+          3
+        )} €/h `
+      );
       const precioHorno = (precioElectro / 1000000) * 1000;
-      horno(`El consumo del horno es ${precioHorno.toFixed(3)} € `);
+      horno(
+        `Ahora mismo, el consumo energético de un horno es ${precioHorno.toFixed(
+          3
+        )} €/h `
+      );
       const precioMicroondas = (precioElectro / 1000000) * 900;
       microondas(
-        `El consumo del microondases ${precioMicroondas.toFixed(3)} € `
+        `Ahora mismo, el consumo energético de un microondases ${precioMicroondas.toFixed(
+          3
+        )} €/h `
       );
       const precioTelevision = (precioElectro / 1000000) * 300;
-      tv(`El consumo de la televisión es ${precioTelevision.toFixed(3)} € `);
+      tv(
+        `Ahora mismo, el consumo de una televisión es ${precioTelevision.toFixed(
+          3
+        )} €/h `
+      );
       const precioOrdenador = (precioElectro / 1000000) * 250;
-      pc(`El consumo del ordenador es ${precioOrdenador.toFixed(3)} € `);
+      pc(
+        `Ahora msmo, el consumo energético de un ordenador es ${precioOrdenador.toFixed(
+          3
+        )} €/h `
+      );
       const precioBatidora = (precioElectro / 1000000) * 400;
-      batidora(`El consumo de la batidora es ${precioBatidora.toFixed(3)} € `);
+      batidora(
+        `Ahora mismo, el consumo energético de una batidora es ${precioBatidora.toFixed(
+          3
+        )} €/h `
+      );
     } else {
       writeMessage("Hubo un error");
     }
