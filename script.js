@@ -124,7 +124,7 @@ async function tomaDatos() {
       );
       const precioMicroondas = (precioElectro / 1000000) * 900;
       microondas(
-        `Ahora mismo, el consumo energético de un microondases ${precioMicroondas.toFixed(
+        `Ahora mismo, el consumo energético de un microondas es ${precioMicroondas.toFixed(
           3
         )} €/h `
       );
